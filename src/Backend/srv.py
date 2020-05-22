@@ -21,9 +21,6 @@ def manage_requests():
     	return add_post()
 
 def add_post():
-	return add_post()
-
-def add_post():
 	data = request.get_json()
 	query = "insert into posts (title, content, author) values (%s, %s, %s)"
 	values = (data['title'], data['content'], data['author'])
@@ -56,22 +53,8 @@ def get_post_by_ID(id):
 	cursor.execute(query)
 	records = cursor.fetchall()
 	header = ['id', 'title', 'content', 'author', 'published_at']
-	#for r in records: 
-	#	data.append(dict(zip(header, r)))
 	cursor.close()
 	return json.dumps(dict(zip(header,records[0])), default=str)
-
-
-	
-
-
-
-
-
-
-
-
-
 
 if __name__ == "__main__":
 	app.run()
