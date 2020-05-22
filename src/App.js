@@ -19,7 +19,6 @@ function App() {
       <div className="app-header">
           <Router>
         <Header/>
-
         <Switch>
             <Route path='/post/:id' component = {PostPage}/>}/>
             <Route path="/about" component={AboutMe}/>

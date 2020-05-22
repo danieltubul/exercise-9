@@ -1,16 +1,40 @@
 import React from "react";
-import {posts} from "../Components/Posts";
-import {useParams} from 'react-router-dom';
+import axios from "axios";
+
+class PostPage extends React.Component {
+    constructor(props) {
+        super(props)
+        this.state = {
+            post: [],
+        };
+    }
+
+    componentDidMount() {
+        let id = this.props.match.params.id;
+        axios.get(`/posts/${id}`).then(res => {
+            this.setState({
+                post: res.data,
+            });
+        })
+
+    }
+
+    render() {
+        return (
+            <div>
+                <h1>{this.state.post.title}</h1>
+                <p>{this.state.post.content}</p>
+                {/*image={this.state.post.image}*/}
+                {/*published={this.state.post.published}*/}
+                {/*author={this.state.post.author}*/}
+                {/*id={this.state.post.id}*/}
+            </div>
+        )
+    }
 
 
-function PostPage() {
-    let { id } = useParams();
-    return (
-        <div>
-            <h1>{posts[id - 1].title}</h1>
-            <p>{posts[id - 1].content}</p>
-        </div>
-    );
+
 }
-
 export default PostPage;
+
+
