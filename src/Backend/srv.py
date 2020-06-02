@@ -59,7 +59,7 @@ def logout():
 def register():
 	data = request.get_json()
 	print(data)
-	query = "select * from users where username = (%s)"
+	query = "select id from users where username = (%s)"
 	value = (data['username'], )
 	cursor = db.cursor()
 	cursor.execute(query, value)
