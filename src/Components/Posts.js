@@ -45,8 +45,8 @@ class Posts extends React.Component {
             <p className="post-content">
                 {props.content}
             </p>
-            <img width="90" height="90" className="post-image" src={props.image}/>
-            <label className="post-footer">
+            <img width="90" height="90" className="post-image" src="https://danieltbucket1.s3.amazonaws.com/xpic.png"/>
+        <label className="post-footer">
                 Published {props.published} by {props.author}
             </label>
         </div>

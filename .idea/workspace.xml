@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fcf36ed8-cb92-47e5-a775-69f8428a8481" name="Default Changelist" comment="" />
+    <list default="true" id="fcf36ed8-cb92-47e5-a775-69f8428a8481" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Backend/srv.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Posts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Posts.js" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,7 +21,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Components/Header.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
+            <state relative-caret-position="51">
               <caret line="6" selection-start-line="6" selection-end-line="6" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
@@ -28,8 +33,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Pages/RegisterPage.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="86" column="5" lean-forward="true" selection-start-line="86" selection-start-column="5" selection-end-line="86" selection-end-column="5" />
+            <state relative-caret-position="1445">
+              <caret line="86" column="5" selection-start-line="86" selection-start-column="5" selection-end-line="86" selection-end-column="5" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -40,8 +45,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Pages/LoginPage.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="93">
-              <caret line="36" selection-start-line="36" selection-end-line="37" />
+            <state relative-caret-position="272">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -50,13 +55,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Backend/srv.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-17">
+              <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="60" column="72" lean-forward="true" selection-start-line="60" selection-start-column="72" selection-end-line="60" selection-end-column="72" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="272">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
@@ -100,9 +111,7 @@
         <option value="$PROJECT_DIR$/src/Pages/ContactMe.js" />
         <option value="$PROJECT_DIR$/src/REST_API.py" />
         <option value="$PROJECT_DIR$/src/Components/Weather.js" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/index.js" />
-        <option value="$PROJECT_DIR$/src/Components/Posts.js" />
         <option value="$PROJECT_DIR$/src/Pages/PostPage.js" />
         <option value="$PROJECT_DIR$/src/Pages/LoginPage1.js" />
         <option value="$PROJECT_DIR$/src/Pages/hello.js" />
@@ -113,8 +122,10 @@
         <option value="$PROJECT_DIR$/src/Pages/LoginPage.js" />
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/Components/Header.js" />
-        <option value="$PROJECT_DIR$/src/Backend/srv.py" />
         <option value="$PROJECT_DIR$/src/Pages/RegisterPage.js" />
+        <option value="$PROJECT_DIR$/src/Components/Posts.js" />
+        <option value="$PROJECT_DIR$/src/Backend/srv.py" />
+        <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
   </component>
@@ -130,8 +141,8 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="638" />
-    <option name="y" value="104" />
+    <option name="x" value="753" />
+    <option name="y" value="54" />
     <option name="width" value="923" />
     <option name="height" value="867" />
   </component>
@@ -175,8 +186,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -203,7 +214,9 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Dan\my-blog" />
       <recent name="C:\Users\Dan\my-blog\src\Backend" />
+      <recent name="C:\Users\Dan\my-blog\src\Frontend" />
       <recent name="C:\Users\Dan\my-blog\src\Styles" />
       <recent name="C:\Users\Dan\my-blog\src\components" />
     </key>
@@ -241,18 +254,19 @@
       <workItem from="1590401327788" duration="19886000" />
       <workItem from="1590515016103" duration="5080000" />
       <workItem from="1591026881777" duration="8038000" />
-      <workItem from="1591105846140" duration="4691000" />
+      <workItem from="1591105846140" duration="5884000" />
+      <workItem from="1591613998401" duration="7674000" />
+      <workItem from="1591697632109" duration="1484000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="116304000" />
+    <option name="totallyTimeSpent" value="126655000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="7" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1407455" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19344473" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -267,10 +281,10 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4993573" weight="0.32974428" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49100256" visible="true" weight="0.3485868" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50899744" side_tool="true" visible="true" weight="0.3485868" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.48843187" visible="true" weight="0.3485868" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5115681" side_tool="true" visible="true" weight="0.3485868" />
       <window_info anchor="bottom" id="Messages" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -286,17 +300,6 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/Pages/LoginPage.js</url>
-          <line>12</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/App.test.js" />
@@ -360,13 +363,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="35" lean-forward="true" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Pages/Gleb.js" />
     <entry file="file://$PROJECT_DIR$/src/Pages/NewLoginPage.js" />
     <entry file="file://$PROJECT_DIR$/src/Components/MainSection.js">
@@ -423,16 +419,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/Header.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Pages/NewPost.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -443,30 +429,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Backend/s.py" />
+    <entry file="file://$PROJECT_DIR$/build/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/Posts.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        <state relative-caret-position="127">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Backend/s.py">
+    <entry file="file://$PROJECT_DIR$/src/Components/Header.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="114" column="20" selection-start-line="114" selection-start-column="20" selection-end-line="114" selection-end-column="20" />
+        <state relative-caret-position="51">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
           <folding>
-            <element signature="e#0#63#0" expanded="true" />
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Pages/RegisterPage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="86" column="5" lean-forward="true" selection-start-line="86" selection-start-column="5" selection-end-line="86" selection-end-column="5" />
+        <state relative-caret-position="1445">
+          <caret line="86" column="5" selection-start-line="86" selection-start-column="5" selection-end-line="86" selection-end-column="5" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -475,8 +465,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Pages/LoginPage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="36" selection-start-line="36" selection-end-line="37" />
+        <state relative-caret-position="238">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -485,11 +475,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="60" column="72" lean-forward="true" selection-start-line="60" selection-start-column="72" selection-end-line="60" selection-end-column="72" />
+        <state relative-caret-position="272">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Backend/srv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
           <folding>
-            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#0#63#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="29" lean-forward="true" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
         </state>
       </provider>
     </entry>

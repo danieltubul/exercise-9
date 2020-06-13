@@ -5,15 +5,21 @@ import uuid
 import bcrypt
 
 db = mysql.connect(
-    host = "localhost",
-    user = "root",
-    passwd = "dbpwd",
-    database = "blog_db "
+    host = "blog-db-rds.cmvolhiqejy7.us-east-1.rds.amazonaws.com",
+    user = "admin",
+    passwd = "dbpwddbpwd",
+    database = "blog_db"
 )
 
 print(db)
 
-app = Flask(__name__)
+app = Flask(__name__,
+            static_folder='../Frontend/build',
+            static_url_path='/')
+
+@app.route('/')
+def index():
+    return app.send_static_file('index.html')
 
 @app.route('/login', methods=['POST'])
 def login():
